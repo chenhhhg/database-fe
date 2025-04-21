@@ -81,7 +81,9 @@ const handleSubmit = async () => {
     try {
       loading.value = true
       errorMessage.value = ''
-
+        if (formData.value.password == 'null'){
+            formData.value.password = ''
+        }
       // 替换为你的实际API端口和路径
       const response = await axios.post(proxy.$apiBaseUrl+'/api/login', formData.value)
 
