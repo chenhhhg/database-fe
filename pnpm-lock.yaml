@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      axios:
+        specifier: ^1.8.4
+        version: 1.8.4
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.8.3)
@@ -602,6 +605,12 @@ packages:
     resolution: {integrity: sha1-DmIyDPmcIa//OzASGSVGqsv7BcU=, tarball: http://r.npm.sankuai.com/ansi-styles/download/ansi-styles-6.2.1.tgz}
     engines: {node: '>=12'}
 
+  asynckit@0.4.0:
+    resolution: {integrity: sha1-x57Zf380y48robyXkLzDZkdLS3k=, tarball: http://r.npm.sankuai.com/asynckit/download/asynckit-0.4.0.tgz}
+
+  axios@1.8.4:
+    resolution: {integrity: sha1-eJkLtLxj0srgcpUtN0g1lQqC9Ec=, tarball: http://r.npm.sankuai.com/axios/download/axios-1.8.4.tgz}
+
   balanced-match@1.0.2:
     resolution: {integrity: sha1-6D46fj8wCzTLnYf2FfoMvzV2kO4=, tarball: http://r.npm.sankuai.com/balanced-match/download/balanced-match-1.0.2.tgz}
 
@@ -620,8 +629,16 @@ packages:
     resolution: {integrity: sha1-87lrNBYNZDGhnXaIE1r3z7h5eIk=, tarball: http://r.npm.sankuai.com/bundle-name/download/bundle-name-4.1.0.tgz}
     engines: {node: '>=18'}
 
+  call-bind-apply-helpers@1.0.2:
+    resolution: {integrity: sha1-S1QowiK+mF15w9gmV0edvgtZstY=, tarball: http://r.npm.sankuai.com/call-bind-apply-helpers/download/call-bind-apply-helpers-1.0.2.tgz}
+    engines: {node: '>= 0.4'}
+
   caniuse-lite@1.0.30001715:
     resolution: {integrity: sha1-vTJaN602bj/pCCfXQGKAejT7rrI=, tarball: http://r.npm.sankuai.com/caniuse-lite/download/caniuse-lite-1.0.30001715.tgz}
+
+  combined-stream@1.0.8:
+    resolution: {integrity: sha1-w9RaizT9cwYxoRCoolIGgrMdWn8=, tarball: http://r.npm.sankuai.com/combined-stream/download/combined-stream-1.0.8.tgz}
+    engines: {node: '>= 0.8'}
 
   convert-source-map@2.0.0:
     resolution: {integrity: sha1-S1YPZJ/E6RjdCrdc9JYei8iC2Co=, tarball: http://r.npm.sankuai.com/convert-source-map/download/convert-source-map-2.0.0.tgz}
@@ -661,6 +678,14 @@ packages:
     resolution: {integrity: sha1-27Ga37dG1/xtc0oGty9KANAhJV8=, tarball: http://r.npm.sankuai.com/define-lazy-prop/download/define-lazy-prop-3.0.0.tgz}
     engines: {node: '>=12'}
 
+  delayed-stream@1.0.0:
+    resolution: {integrity: sha1-3zrhmayt+31ECqrgsp4icrJOxhk=, tarball: http://r.npm.sankuai.com/delayed-stream/download/delayed-stream-1.0.0.tgz}
+    engines: {node: '>=0.4.0'}
+
+  dunder-proto@1.0.1:
+    resolution: {integrity: sha1-165mfh3INIL4tw/Q9u78UNow9Yo=, tarball: http://r.npm.sankuai.com/dunder-proto/download/dunder-proto-1.0.1.tgz}
+    engines: {node: '>= 0.4'}
+
   electron-to-chromium@1.5.139:
     resolution: {integrity: sha1-Vq59QkOeKWelS6262usS90iYfzc=, tarball: http://r.npm.sankuai.com/electron-to-chromium/download/electron-to-chromium-1.5.139.tgz}
 
@@ -670,6 +695,22 @@ packages:
 
   error-stack-parser-es@0.1.5:
     resolution: {integrity: sha1-FbULZ76ktu1llpdu4Hx4Z64luxw=, tarball: http://r.npm.sankuai.com/error-stack-parser-es/download/error-stack-parser-es-0.1.5.tgz}
+
+  es-define-property@1.0.1:
+    resolution: {integrity: sha1-mD6y+aZyTpMD9hrd8BHHLgngsPo=, tarball: http://r.npm.sankuai.com/es-define-property/download/es-define-property-1.0.1.tgz}
+    engines: {node: '>= 0.4'}
+
+  es-errors@1.3.0:
+    resolution: {integrity: sha1-BfdaJdq5jk+x3NXhRywFRtUFfI8=, tarball: http://r.npm.sankuai.com/es-errors/download/es-errors-1.3.0.tgz}
+    engines: {node: '>= 0.4'}
+
+  es-object-atoms@1.1.1:
+    resolution: {integrity: sha1-HE8sSDcydZfOadLKGQp/3RcjOME=, tarball: http://r.npm.sankuai.com/es-object-atoms/download/es-object-atoms-1.1.1.tgz}
+    engines: {node: '>= 0.4'}
+
+  es-set-tostringtag@2.1.0:
+    resolution: {integrity: sha1-8x274MGDsAptJutjJcgQwP0YvU0=, tarball: http://r.npm.sankuai.com/es-set-tostringtag/download/es-set-tostringtag-2.1.0.tgz}
+    engines: {node: '>= 0.4'}
 
   esbuild@0.25.2:
     resolution: {integrity: sha1-VaHZ68s6ovlei7qekAwaUGG8Fos=, tarball: http://r.npm.sankuai.com/esbuild/download/esbuild-0.25.2.tgz}
@@ -699,6 +740,19 @@ packages:
     resolution: {integrity: sha1-k1R59Rhl+nR59vqU/G/HrBTmLEo=, tarball: http://r.npm.sankuai.com/figures/download/figures-6.1.0.tgz}
     engines: {node: '>=18'}
 
+  follow-redirects@1.15.9:
+    resolution: {integrity: sha1-pgT6EORDv5jKlCKNnuvMLoosjuE=, tarball: http://r.npm.sankuai.com/follow-redirects/download/follow-redirects-1.15.9.tgz}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+
+  form-data@4.0.2:
+    resolution: {integrity: sha1-Ncq73TDDznPessQtPI0+2cpReUw=, tarball: http://r.npm.sankuai.com/form-data/download/form-data-4.0.2.tgz}
+    engines: {node: '>= 6'}
+
   fs-extra@11.3.0:
     resolution: {integrity: sha1-DaztE2u69lpVWjJnGa+TGtx6MU0=, tarball: http://r.npm.sankuai.com/fs-extra/download/fs-extra-11.3.0.tgz}
     engines: {node: '>=14.14'}
@@ -708,9 +762,20 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
+  function-bind@1.1.2:
+    resolution: {integrity: sha1-LALYZNl/PqbIgwxGTL0Rq26rehw=, tarball: http://r.npm.sankuai.com/function-bind/download/function-bind-1.1.2.tgz}
+
   gensync@1.0.0-beta.2:
     resolution: {integrity: sha1-MqbudsPX9S1GsrGuXZP+qFgKJeA=, tarball: http://r.npm.sankuai.com/gensync/download/gensync-1.0.0-beta.2.tgz}
     engines: {node: '>=6.9.0'}
+
+  get-intrinsic@1.3.0:
+    resolution: {integrity: sha1-dD8OO2lkqTpUke0b/6rgVNf5jQE=, tarball: http://r.npm.sankuai.com/get-intrinsic/download/get-intrinsic-1.3.0.tgz}
+    engines: {node: '>= 0.4'}
+
+  get-proto@1.0.1:
+    resolution: {integrity: sha1-FQs/J0OGnvPoUewMSdFbHRTQDuE=, tarball: http://r.npm.sankuai.com/get-proto/download/get-proto-1.0.1.tgz}
+    engines: {node: '>= 0.4'}
 
   get-stream@9.0.1:
     resolution: {integrity: sha1-lRV9Id+OuQ0WRxArYwObHfYOvSc=, tarball: http://r.npm.sankuai.com/get-stream/download/get-stream-9.0.1.tgz}
@@ -720,8 +785,24 @@ packages:
     resolution: {integrity: sha1-q4eVM4hooLq9hSV1gBjCp+uVxC4=, tarball: http://r.npm.sankuai.com/globals/download/globals-11.12.0.tgz}
     engines: {node: '>=4'}
 
+  gopd@1.2.0:
+    resolution: {integrity: sha1-ifVrghe9vIgCvSmd9tfxCB1+UaE=, tarball: http://r.npm.sankuai.com/gopd/download/gopd-1.2.0.tgz}
+    engines: {node: '>= 0.4'}
+
   graceful-fs@4.2.11:
     resolution: {integrity: sha1-QYPk6L8Iu24Fu7L30uDI9xLKQOM=, tarball: http://r.npm.sankuai.com/graceful-fs/download/graceful-fs-4.2.11.tgz}
+
+  has-symbols@1.1.0:
+    resolution: {integrity: sha1-/JxqeDoISVHQuXH+EBjegTcHozg=, tarball: http://r.npm.sankuai.com/has-symbols/download/has-symbols-1.1.0.tgz}
+    engines: {node: '>= 0.4'}
+
+  has-tostringtag@1.0.2:
+    resolution: {integrity: sha1-LNxC1AvvLltO6rfAGnPFTOerWrw=, tarball: http://r.npm.sankuai.com/has-tostringtag/download/has-tostringtag-1.0.2.tgz}
+    engines: {node: '>= 0.4'}
+
+  hasown@2.0.2:
+    resolution: {integrity: sha1-AD6vkb563DcuhOxZ3DclLO24AAM=, tarball: http://r.npm.sankuai.com/hasown/download/hasown-2.0.2.tgz}
+    engines: {node: '>= 0.4'}
 
   he@1.2.0:
     resolution: {integrity: sha1-hK5l+n6vsWX922FWauFLrwVmTw8=, tarball: http://r.npm.sankuai.com/he/download/he-1.2.0.tgz}
@@ -800,9 +881,21 @@ packages:
   magic-string@0.30.17:
     resolution: {integrity: sha1-RQpElnPSRg5bvPupphkWoXFMdFM=, tarball: http://r.npm.sankuai.com/magic-string/download/magic-string-0.30.17.tgz}
 
+  math-intrinsics@1.1.0:
+    resolution: {integrity: sha1-oN10voHiqlwvJ+Zc4oNgXuTit/k=, tarball: http://r.npm.sankuai.com/math-intrinsics/download/math-intrinsics-1.1.0.tgz}
+    engines: {node: '>= 0.4'}
+
   memorystream@0.3.1:
     resolution: {integrity: sha1-htcJCzDORV1j+64S3aUaR93K+bI=, tarball: http://r.npm.sankuai.com/memorystream/download/memorystream-0.3.1.tgz}
     engines: {node: '>= 0.10.0'}
+
+  mime-db@1.52.0:
+    resolution: {integrity: sha1-u6vNwChZ9JhzAchW4zh85exDv3A=, tarball: http://r.npm.sankuai.com/mime-db/download/mime-db-1.52.0.tgz}
+    engines: {node: '>= 0.6'}
+
+  mime-types@2.1.35:
+    resolution: {integrity: sha1-OBqHG2KnNEUGYK497uRIE/cNlZo=, tarball: http://r.npm.sankuai.com/mime-types/download/mime-types-2.1.35.tgz}
+    engines: {node: '>= 0.6'}
 
   minimatch@9.0.5:
     resolution: {integrity: sha1-10+d1rV9g9jpjPuCEzsDl4vJKeU=, tarball: http://r.npm.sankuai.com/minimatch/download/minimatch-9.0.5.tgz}
@@ -896,6 +989,9 @@ packages:
   pretty-ms@9.2.0:
     resolution: {integrity: sha1-4UwKrWSTtp7WMRREKoQTPX5WDvA=, tarball: http://r.npm.sankuai.com/pretty-ms/download/pretty-ms-9.2.0.tgz}
     engines: {node: '>=18'}
+
+  proxy-from-env@1.1.0:
+    resolution: {integrity: sha1-4QLxbKNVQkhldV0sno6k8k1Yw+I=, tarball: http://r.npm.sankuai.com/proxy-from-env/download/proxy-from-env-1.1.0.tgz}
 
   read-package-json-fast@4.0.0:
     resolution: {integrity: sha1-jMvAV0C7n1gmT0AKzAtLTu6NGzk=, tarball: http://r.npm.sankuai.com/read-package-json-fast/download/read-package-json-fast-4.0.0.tgz}
@@ -1615,6 +1711,16 @@ snapshots:
 
   ansi-styles@6.2.1: {}
 
+  asynckit@0.4.0: {}
+
+  axios@1.8.4:
+    dependencies:
+      follow-redirects: 1.15.9
+      form-data: 4.0.2
+      proxy-from-env: 1.1.0
+    transitivePeerDependencies:
+      - debug
+
   balanced-match@1.0.2: {}
 
   birpc@2.3.0: {}
@@ -1634,7 +1740,16 @@ snapshots:
     dependencies:
       run-applescript: 7.0.0
 
+  call-bind-apply-helpers@1.0.2:
+    dependencies:
+      es-errors: 1.3.0
+      function-bind: 1.1.2
+
   caniuse-lite@1.0.30001715: {}
+
+  combined-stream@1.0.8:
+    dependencies:
+      delayed-stream: 1.0.0
 
   convert-source-map@2.0.0: {}
 
@@ -1665,11 +1780,34 @@ snapshots:
 
   define-lazy-prop@3.0.0: {}
 
+  delayed-stream@1.0.0: {}
+
+  dunder-proto@1.0.1:
+    dependencies:
+      call-bind-apply-helpers: 1.0.2
+      es-errors: 1.3.0
+      gopd: 1.2.0
+
   electron-to-chromium@1.5.139: {}
 
   entities@4.5.0: {}
 
   error-stack-parser-es@0.1.5: {}
+
+  es-define-property@1.0.1: {}
+
+  es-errors@1.3.0: {}
+
+  es-object-atoms@1.1.1:
+    dependencies:
+      es-errors: 1.3.0
+
+  es-set-tostringtag@2.1.0:
+    dependencies:
+      es-errors: 1.3.0
+      get-intrinsic: 1.3.0
+      has-tostringtag: 1.0.2
+      hasown: 2.0.2
 
   esbuild@0.25.2:
     optionalDependencies:
@@ -1726,6 +1864,15 @@ snapshots:
     dependencies:
       is-unicode-supported: 2.1.0
 
+  follow-redirects@1.15.9: {}
+
+  form-data@4.0.2:
+    dependencies:
+      asynckit: 0.4.0
+      combined-stream: 1.0.8
+      es-set-tostringtag: 2.1.0
+      mime-types: 2.1.35
+
   fs-extra@11.3.0:
     dependencies:
       graceful-fs: 4.2.11
@@ -1735,7 +1882,27 @@ snapshots:
   fsevents@2.3.3:
     optional: true
 
+  function-bind@1.1.2: {}
+
   gensync@1.0.0-beta.2: {}
+
+  get-intrinsic@1.3.0:
+    dependencies:
+      call-bind-apply-helpers: 1.0.2
+      es-define-property: 1.0.1
+      es-errors: 1.3.0
+      es-object-atoms: 1.1.1
+      function-bind: 1.1.2
+      get-proto: 1.0.1
+      gopd: 1.2.0
+      has-symbols: 1.1.0
+      hasown: 2.0.2
+      math-intrinsics: 1.1.0
+
+  get-proto@1.0.1:
+    dependencies:
+      dunder-proto: 1.0.1
+      es-object-atoms: 1.1.1
 
   get-stream@9.0.1:
     dependencies:
@@ -1744,7 +1911,19 @@ snapshots:
 
   globals@11.12.0: {}
 
+  gopd@1.2.0: {}
+
   graceful-fs@4.2.11: {}
+
+  has-symbols@1.1.0: {}
+
+  has-tostringtag@1.0.2:
+    dependencies:
+      has-symbols: 1.1.0
+
+  hasown@2.0.2:
+    dependencies:
+      function-bind: 1.1.2
 
   he@1.2.0: {}
 
@@ -1798,7 +1977,15 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
 
+  math-intrinsics@1.1.0: {}
+
   memorystream@0.3.1: {}
+
+  mime-db@1.52.0: {}
+
+  mime-types@2.1.35:
+    dependencies:
+      mime-db: 1.52.0
 
   minimatch@9.0.5:
     dependencies:
@@ -1872,6 +2059,8 @@ snapshots:
   pretty-ms@9.2.0:
     dependencies:
       parse-ms: 4.0.0
+
+  proxy-from-env@1.1.0: {}
 
   read-package-json-fast@4.0.0:
     dependencies:
